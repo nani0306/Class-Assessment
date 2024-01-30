@@ -4,7 +4,7 @@ code:
 
 using namespace std;
 
-void moveZeroesToRight(int arr[], int n) 
+void moveZeroesToEnd(int arr[], int n) 
 {
     int count = 0;
     for (int i = 0; i < n; i++) {
@@ -28,7 +28,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         cin >> arr[i];
     }
-    moveZeroesToRight(arr, n);
+    moveZeroesToEnd(arr, n);
     cout << "Array after moving zeroes to right: ";
     for (int i = 0; i < n; i++) {
         cout << arr[i] << " ";
